@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[CentOS Maven]]></title>
+      <url>%2F2017%2F01%2F15%2Fcentos-maven-install%2F</url>
+      <content type="text"><![CDATA[CentOS 安装Maven 构建工具 下载Maven执行命令wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz下载 解压执行命令tar -zxvf apache-maven-3.0.5-bin.tar.gz 解压 配置环境变量执行命令sudo vim /etc/profile 在文件最下面添加环境变量 export MAVEN_HOME=/home/chuckma/apache-maven-3.0.5 “=”后面是maven 解压后的位置，在PATH下添加$MAVEN_HOME/bin: 执行source /etc/profile,使修改生效 验证执行命令mvn -version 如图所示表示环境变量配置成功]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[两款Chrome 开发插件]]></title>
       <url>%2F2017%2F01%2F06%2Fchajian%2F</url>
       <content type="text"><![CDATA[最近听别的开发者推荐了两款Chrome 插件，试用后感觉不错，推荐给大家 FeHelper 一款工具插件，包含字符串编解码，JSON格式化，代码美化，JS表达式等等，是一款很不存的开发辅助工具 Restlet_Client 也时一款蛮不错的开发小工具，主要是接口测试的，还有类似的接口测试工具，比如Postman 两者有些类似，我使用前者比较多，它看起来这样 左下角可以添加Project&gt;Service&gt;Request 很方便测试接口]]></content>
